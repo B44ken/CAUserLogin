@@ -44,5 +44,9 @@ public class InMemoryUserDataAccessObject implements SignupUserDataAccessInterfa
     public void setCurrentUser(String name) {
         this.currentUser = name;
     }
+    
+    public String getCurrentUser() {
+        return currentUser;
+    }
 
 }

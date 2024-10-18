@@ -157,4 +157,10 @@ public class DBUserDataAccessObject implements SignupUserDataAccessInterface,
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'setCurrentUser'");
     }
+
+    @Override
+    public Object getCurrentUser() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getCurrentUser'");
+    }
 }

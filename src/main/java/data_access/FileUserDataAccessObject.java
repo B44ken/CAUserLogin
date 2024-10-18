@@ -108,4 +108,10 @@ public class FileUserDataAccessObject implements SignupUserDataAccessInterface,
     public void setCurrentUser(String name) {
         throw new UnsupportedOperationException("Unimplemented method 'setCurrentUser'");
     }
+
+    @Override
+    public Object getCurrentUser() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getCurrentUser'");
+    }
 }
